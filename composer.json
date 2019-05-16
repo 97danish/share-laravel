@@ -1,5 +1,5 @@
 {
-    "name": "danish/laravel-share",
+    "name": "danish/share-laravel",
     "description": "Optional package for Laravel to generate social share links.",
     "keywords": [
         "laravel",
