@@ -10,7 +10,7 @@
          processIsolation="false"
          stopOnFailure="false">
     <testsuites>
-        <testsuite name="Jorenvh Test Suite">
+        <testsuite name="Danish Test Suite">
             <directory>tests</directory>
         </testsuite>
     </testsuites>

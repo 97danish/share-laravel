@@ -1,11 +1,4 @@
 # Laravel Share
-
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/jorenvanhocht/laravel-share.svg?style=flat-square)](https://packagist.org/packages/jorenvanhocht/laravel-share)
-[![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE.md)
-[![Build Status](https://img.shields.io/travis/jorenvh/laravel-share/master.svg?style=flat-square)](https://travis-ci.org/jorenvh/laravel-share)
-[![SensioLabsInsight](https://img.shields.io/sensiolabs/i/dde6008b-ccc6-4a3f-8a98-37d76532f956.svg?style=flat-square)](https://insight.sensiolabs.com/projects/dde6008b-ccc6-4a3f-8a98-37d76532f956)
-[![Total Downloads](https://img.shields.io/packagist/dt/jorenvanhocht/laravel-share.svg?style=flat-square)](https://packagist.org/packages/jorenvanhocht/laravel-share)
-
 Share links exist on almost every page in every project, creating the code for these share links over and over again can be a pain in the ass.
 With Laravel Share you can generate these links in just seconds in a way tailored for Laravel.
 
@@ -22,7 +15,7 @@ With Laravel Share you can generate these links in just seconds in a way tailore
 You can install the package via composer:
 
 ``` bash
-composer require jorenvanhocht/laravel-share
+composer require danish/share-laravel
 ```
 
 
@@ -32,7 +25,7 @@ If you don't use auto-discovery, add the ServiceProvider to the providers array 
 // config/app.php
 'providers' => [
     ...
-    Jorenvh\Share\Providers\ShareServiceProvider::class,
+    Danish\Share\Providers\ShareServiceProvider::class,
 ];
 ```
 
@@ -42,14 +35,14 @@ And optionally add the facade in config/app.php
 // config/app.php
 'aliases' => [
     ...
-    'Share' => Jorenvh\Share\ShareFacade::class,
+    'Share' => Danish\Share\ShareFacade::class,
 ];
 ```
 
 Publish the package config & resource files.
 
 ```bash
-php artisan vendor:publish --provider="Jorenvh\Share\Providers\ShareServiceProvider"
+php artisan vendor:publish --provider="Danish\Share\Providers\ShareServiceProvider"
 ```
 
 This will publish the ```laravel-share.php``` config file to your config folder, ```share.js``` in ```public/js/``` and ```laravel-share.php``` in your ```resources/lang/vendor/en/``` folder.
@@ -199,15 +192,6 @@ $ composer test
 ## Contributing
 
 Please see [CONTRIBUTING](CONTRIBUTING.md) for details.
-
-## Security
-
-If you discover any security related issues, please email jorenvh@gmail.com instead of using the issue tracker.
-
-## Credits
-
-- [Joren Van Hocht](https://github.com/jorenvh)
-- [All Contributors](../../contributors)
 
 ## License
 

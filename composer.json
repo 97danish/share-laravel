@@ -26,12 +26,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Jorenvh\\Share\\": "src"
+            "Danish\\Share\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Jorenvh\\Share\\Test\\": "tests"
+            "Danish\\Share\\Test\\": "tests"
         }
     },
     "scripts": {
