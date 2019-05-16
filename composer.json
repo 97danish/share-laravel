@@ -1,5 +1,5 @@
 {
-    "name": "jorenvanhocht/laravel-share",
+    "name": "danish/laravel-share",
     "description": "Optional package for Laravel to generate social share links.",
     "keywords": [
         "laravel",
@@ -7,12 +7,12 @@
         "social links",
         "social share links"
     ],
-    "homepage": "https://github.com/jorenvh/laravel-share",
+    "homepage": "https://github.com/97danish/share-laravel",
     "license": "MIT",
     "authors": [
         {
-            "name": "Joren Van Hocht",
-            "email": "joren@codeswitch.be",
+            "name": "Danish",
+            "email": "Danish@gmail.com",
             "homepage": "https://codeswitch.be",
             "role": "Developer"
         }
@@ -43,10 +43,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Jorenvh\\Share\\Providers\\ShareServiceProvider"
+                "Danish\\Share\\Providers\\ShareServiceProvider"
             ],
             "aliases": {
-                "Share": "Jorenvh\\Share\\ShareFacade"
+                "Share": "Danish\\Share\\ShareFacade"
             }
         }
     }

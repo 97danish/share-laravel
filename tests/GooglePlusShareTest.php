@@ -1,8 +1,8 @@
 <?php
 
-namespace Jorenvh\Share\Test;
+namespace Danish\Share\Test;
 
-use Jorenvh\Share\ShareFacade;
+use Danish\Share\ShareFacade;
 
 class GooglePlusShareTest extends TestCase
 {

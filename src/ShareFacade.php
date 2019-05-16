@@ -1,6 +1,6 @@
 <?php
 
-namespace Jorenvh\Share;
+namespace Danish\Share;
 
 use Illuminate\Support\Facades\Facade;
 

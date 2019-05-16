@@ -1,6 +1,6 @@
 <?php
 
-namespace Jorenvh\Share;
+namespace Danish\Share;
 
 class Share
 {
